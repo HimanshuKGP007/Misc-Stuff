@@ -7,3 +7,6 @@ df = df1.withColumn('test', func(col('first')))
 df.show()
 
 df.printSchema()
+
+SELECT STRCMP (‘SQL tutorial’, ‘SQL tutorial blog’);
+
