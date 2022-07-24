@@ -1,3 +1,3 @@
-df.registerTempTable("people")
+spark.registerDataFrameAsTable(df, "dftab")
 
-df2 = spark.sql("select * from people")
+#Using this method we can register a DataFrame as a temporary table.
